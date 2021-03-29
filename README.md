@@ -116,8 +116,9 @@ searched against.
   _For example, searching for sys_gettimeofday() on kernel 3.14, then the line of
   code would be lines 203 and 204, and the code would be:_
 
-  `asmlinkage long sys_gettimeofday(struct timeval __user *tv,
-  struct timezone __user *tz);`
+  ```C
+  asmlinkage long sys_gettimeofday(struct timeval __user *tv,
+  struct timezone __user *tz);```
 
   Also include the file names requested in each of the parts of the exercise above.
 
