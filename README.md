@@ -118,7 +118,8 @@ searched against.
 
   ```C
   asmlinkage long sys_gettimeofday(struct timeval __user *tv,
-  struct timezone __user *tz);```
+  struct timezone __user *tz);
+  ```
 
   Also include the file names requested in each of the parts of the exercise above.
 
