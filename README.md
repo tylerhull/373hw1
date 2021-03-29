@@ -1,7 +1,3 @@
-# 373hw1
-Repo for ECE 373 Homework 1
-
-
 # ECE 373 Assignment #1
 # Spring 2020
 
@@ -114,23 +110,20 @@ What to turn in:
 
 ## In a text file, or Word document, or Open Office document, include:
 1) For the manpage exercise, all of the information from #1 in "The Work" above.
-
 2) For the LXR exercise, copy and paste the lines of code the LXR hits on PLUS the kernel you
 searched against. 
 
-_For example, searching for sys_gettimeofday() on kernel 3.14, then the line of
-code would be lines 203 and 204, and the code would be:_
+  _For example, searching for sys_gettimeofday() on kernel 3.14, then the line of
+  code would be lines 203 and 204, and the code would be:_
 
-`asmlinkage long sys_gettimeofday(struct timeval __user *tv,
-struct timezone __user *tz);`
-Also include the file names requested in each of the parts of the exercise above.
+  `asmlinkage long sys_gettimeofday(struct timeval __user *tv,
+  struct timezone __user *tz);`
+
+  Also include the file names requested in each of the parts of the exercise above.
 
 3) Copy of the example C program from section C.
-
 4) Copy of the typescript showing execution of program from section C.
-
 5) Copy of the hello.c module code from section D.
-
 6) Copy of the 'hello' and 'goodbye' logfile lines from section D.
 
 Save all this information into a zip file, and turn it in by midnight, Pacific time, Monday,
